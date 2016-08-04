@@ -87,6 +87,8 @@
 .gray {
   border: dotted 1px  gray;
   background-color: #f5f5f5;
+  margin: 2px;
+
 }
 
 .gray ul {
@@ -97,12 +99,61 @@
   padding: 3px;
 }
 
+.green {
+  background-color: #e6ffe6;
+  margin: 2px 2px 2px 15px;
+  padding: 10px;
+  border: 1px solid #adebad;
+}
+
+.panel {
+  border-radius: 0px;
+}
+
+.green .panel {
+  background-color: #e6ffe6;
+  border-width: 0px;
+}
+
+.green .panel-heading {
+  background-color: #adebad;
+  border: 1px solid #adebad;
+}
+
+.panel-heading h4 {
+  margin: -8px 0;
+}
+
+.blue {
+  background-color: #e6ffff;
+  margin: 2px 2px 2px 2px;
+  padding: 10px;
+  border: 1px solid #80ffff;
+  width: 39%;
+}
+
+.blue .panel {
+  background-color: #e6ffff;
+  border-width: 0px;
+}
+
+.blue .panel-heading {
+  background-color: #80ffff;
+  border: 1px solid #80ffff;
+}
+
 .title {
   text-align: center;
 }
 
 .navbar-form input {
     padding-right: 150px;
+}
+
+.holder img {
+  width: 15%;
+  height: auto;
+  padding: 5px;
 }
 
 #logo {
